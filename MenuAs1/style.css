@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+    color: #fdf2f2;
+    margin-bottom: 0;
+}
+main {
+    padding: 50px 0;
+}
+.menu-container {
+    display: flex;
+    justify-content: center; 
+    width: 80%;
+    margin: 0 auto;
+}
+.menu-item {
+    width: 30%;  
+    padding: 10px;
+    background-color: rgb(239, 245, 247);
+    border: 1px solid black;
+    border-radius: 0;
+    margin: 10px;
+    position: relative; /* Add this line */
+}
+
+.menu-item p {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding-right: 40px;
+    top: 20px;
+}
+
+#p1, #p2, #p3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:  rgb(200, 240, 241);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+}
